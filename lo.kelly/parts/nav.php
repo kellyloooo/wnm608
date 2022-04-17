@@ -7,7 +7,8 @@
         <div class="flex-stretch"></div>
         <nav class="nav nav-flex flex-none">
             <ul>
-                <li><a href="admin/user.php">User List</a></li>
+                <li><a href="<?= $_SERVER['PHP_SELF'] ?>">User List</a></li>
+                <li><a href="<?= $_SERVER['PHP_SELF'] ?>?id=new">Add New User</a></li>
 
             </ul>
         </nav>

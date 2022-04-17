@@ -93,9 +93,9 @@
             </div>
             <div class="col-xs-12 col-md-4">
                 <figure class="figure product">
-                <a href="product_item.php?id=10"><img src="img/phase.jpg" alt=""></a>
+                <a href="product_item.php?id=10"><img src="img/phrase.jpg" alt=""></a>
                     <figcaption>
-                        <div>Phase 盈</div>
+                        <div>Phrase 盈</div>
                         <div>$13.99</div>
                     </figcaption>
                 </figure>
