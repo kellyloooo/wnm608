@@ -8,9 +8,13 @@
 </head>
 <body>
     <?php include "parts/navbar.php";?>
-    <div class="hero">
-        <img src="img/img_1.jpg" alt="hero">
+
+<div class="container" id="productlist">
+    <div class="card soft">
+        <h2>Your Cart</h2>
+        <p><a href="product_checkout.php">Checkout</a></p>
     </div>
+</div>
 
 
     <?php include "parts/footer.php";?>

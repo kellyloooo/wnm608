@@ -147,6 +147,20 @@
             </div>
            
         </div>
+
+        <?php
+
+        include_once "lib/php/function.php";
+        include_once "parts/templates.php";
+
+        $result = makeQuery(
+            makeConn(),
+            "SELECT * FROM `products` ORDER BY `date_create` ASC");
+
+        echo array_reduce($result,'productListTemplate');
+    
+        ?>
+
     </div>
     </div>
     <?php include "parts/footer.php";?>

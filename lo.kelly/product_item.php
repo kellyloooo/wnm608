@@ -13,6 +13,7 @@
             <h2>Soap</h2>
 
           <p>This is soap # <?= $_GET['id']?></p>
+          <p><a href="product-added.php">Add to Cart</a></p>
         </div>
     </div>
 </body>
