@@ -157,7 +157,7 @@
             makeConn(),
             "SELECT * FROM `products` ORDER BY `date_create` ASC");
 
-        echo array_reduce($result,'productListTemplate');
+        echo "<div class=' grid gap'>",array_reduce($result,'productListTemplate'),"</div>";
     
         ?>
 
