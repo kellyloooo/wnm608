@@ -39,7 +39,7 @@
             </div>
             <div class="col-xs-12 col-md-4">
                 <figure class="figure product">
-                <a href="product_item.col-xs-12 col-md-4"><img src="img/avocado.jpg" alt=""></a>
+                <a href="product_item.php?id=4"><img src="img/avocado.jpg" alt=""></a>
                     <figcaption>
                         <div>Avocado 酪樹</div>
                         <div>$13.99</div>
