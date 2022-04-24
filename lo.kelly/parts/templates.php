@@ -2,7 +2,7 @@
 
 function productListTemplate($r,$o) {
 return $r.<<<HTML
-<div class="col-xs-12 col-md-4">
+<a class="col-xs-12 col-md-4" href="product_item.php?id=$o->id">
      <figure class="figure product">
         <img src="img/$o->thumbnail" alt="">
             <figcaption>
@@ -10,6 +10,6 @@ return $r.<<<HTML
                 <div>&dollar;$o->price</div>
             </figcaption>
     </figure>
-</div>
+</a>
 HTML;
 }

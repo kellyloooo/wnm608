@@ -7,7 +7,7 @@
 <body>
  <?php include "parts/navbar.php";?>
 
-    <div class="container" id="productlist">
+     <div class="container" id="productlist">
     <div class="card soft">
         <div class=" grid gap">
             <div class="col-xs-12 col-md-4">
@@ -150,14 +150,14 @@
 
         <?php
 
-        include_once "lib/php/function.php";
-        include_once "parts/templates.php";
+        //include_once "lib/php/function.php";
+        //include_once "parts/templates.php";
 
-        $result = makeQuery(
-            makeConn(),
-            "SELECT * FROM `products` ORDER BY `date_create` ASC");
+        //$result = makeQuery(
+            //makeConn(),
+            //"SELECT * FROM `products` ORDER BY `date_create` ASC");
 
-        echo "<div class=' grid gap'>",array_reduce($result,'productListTemplate'),"</div>";
+       // echo "<div class='productlist grid gap'>",array_reduce($result,'productListTemplate'),"</div>";
     
         ?>
 

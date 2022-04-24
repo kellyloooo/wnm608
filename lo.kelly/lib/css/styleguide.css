@@ -385,7 +385,7 @@ a:hover {
 
 .form-button:hover {
     text-decoration: none;
-    background-color: var(--color-main-light);
+    background-color: var(--color-main-medium);
 }
 
 .form-button:active {
