@@ -21,7 +21,7 @@ $cart_items = getCartItems();
 <body>
     <?php include "parts/navbar.php";?>
 
-<div class="container" id="productlist">   
+<div class="container" id="productlist_margin">   
         <h2>Your Cart</h2>
         <div class="grid gap">
             <div class="col-xs-12 col-md-7">

@@ -19,7 +19,7 @@ $product = makeQuery(makeConn(),"SELECT * FROM `products` WHERE `id`=".$_GET['id
 <body>
     <?php include "parts/navbar.php";?>
 
-<div class="container" id="productlist">
+<div class="container" id="productlist_margin">
     <div class="card soft">
         <h2 class="title"><?= $product->name ?> Added to Your Cart</h2>
         

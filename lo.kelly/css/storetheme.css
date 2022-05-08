@@ -97,3 +97,7 @@ body {
     height: 8em;
     object-fit: contain;
 }
+
+.filter-button {
+    margin-right: 0.5em;
+}

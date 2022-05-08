@@ -5,3 +5,4 @@
     <link rel="stylesheet" href="lib/css/styleguide.css">
     <link rel="stylesheet" href="lib/css/gridsystem.css">
     <link rel="stylesheet" href="css/storetheme.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
