@@ -14,6 +14,7 @@ $empty_product = (object)[
 
 
 //LOGIC
+if(isset($_GET['action'])){
 try {
     $conn = makePDOConn();
     switch($_GET['action']) {
@@ -75,7 +76,7 @@ try {
     }
 } catch(PDOException $e){
     die($e->getMessage());
-}
+}}
 
 
 
