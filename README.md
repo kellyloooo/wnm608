@@ -4,5 +4,9 @@ Kelly Lo
 - http://kellykailin.com/aau/wnm608/lo.kelly/
 - http://kellykailin.com/aau/wnm608/lo.kelly/styleguide
 - http://kellykailin.com/aau/wnm608/lo.kelly/index.php
-- http://kellykailin.com/aau/wnm608/lo.kelly/notes/reading_data.php
+- http://kellykailin.com/aau/wnm608/lo.kelly/admin
+
+## Extra Link
 - http://kellykailin.com/aau/wnm608/lo.kelly/admin/user.php
+- http://kellykailin.com/aau/wnm608/lo.kelly/notes
+- http://kellykailin.com/aau/wnm608/lo.kelly/notes/reading_data.php

@@ -1,9 +1,13 @@
+<?php
+include_once "lib/php/function.php";
+include_once "parts/templates.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <link rel="stylesheet" href="css/storetheme.css">
 <link rel="stylesheet" href="lib/css/styleguide.css">
- <link rel="stylesheet" href="lib/css/gridsystem.css">
+<link rel="stylesheet" href="lib/css/gridsystem.css">
     <title>Island Soapworks</title>
 </head>
 <body>
@@ -22,6 +26,12 @@
             is to let the users enjoy their bath visually and olfactorily.
         </p>
     </div>
+
+    <div class="container card soft">
+        <h2>Latest Soaps</h2>
+        <?php recommendedCategory("soap"); ?>
+    </div>
+
     <?php include "parts/footer.php";?>
 
 </body>
