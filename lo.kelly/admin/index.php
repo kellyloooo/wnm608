@@ -199,7 +199,7 @@ function showProductPage($o){
     <?php include "../parts/meta.php";?>
     <title>Product Admin Page</title>
 </head>
-<body>
+<body class="flush">
 <header class="navbar">
     <div class="container display-flex">
         <div class="flex-none">

@@ -28,7 +28,7 @@ include_once "parts/templates.php";
                 <input type="search" placeholder="Search Products...">
             </form>
         </div>
-        <div class="form-control display-flex flex-stretch">
+        <div class="form-control display-flex flex-stretch flex-wrap">
             <div class="filter-button">
                 <button data-filter="category" data-value="" type="button" class="form-button">All</button>
             </div>
@@ -36,7 +36,7 @@ include_once "parts/templates.php";
                 <button data-filter="category" data-value="soap" type="button" class="form-button">Soap</button>
             </div>
             <div class="filter-button">
-                <button data-filter="category" data-value="housework soap" type="button" class="form-button">Housework Soap</button>
+                <button data-filter="category" data-value="housework soap" type="button" class="form-button">Housework</button>
             </div>
             <div class="flex-none">
             <div class="form-select">

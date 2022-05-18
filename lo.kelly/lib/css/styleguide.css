@@ -94,6 +94,14 @@ a:hover {
     justify-content: center;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 /*SMALL CLASSES*/
 .media-image {
     max-width: 100%;
@@ -106,12 +114,10 @@ a:hover {
 
 /*COMPONENT CLASSES*/
 .navbar {
-    position: fixed;
     z-index: 10000;
     top: 0;
     width: 100%;
     background-color: var(--color-neutral-dark);
-    opacity: 80%;
     color: var(--color-white);
     line-height: var(--header-height);
 }
@@ -132,6 +138,10 @@ a:hover {
     font-family: var(--font-serif);
     margin-top: 20px;
     cursor: pointer;
+}
+
+.flush>.navbar {
+    margin-bottom: 0;
 }
 
 .nav ul {
@@ -167,10 +177,6 @@ a:hover {
 }
 
 #tableofcontents {
-    margin-top: 100px;
-}
-
-#productlist_margin {
     margin-top: 100px;
 }
 
@@ -277,6 +283,11 @@ a:hover {
 
 .card.flat {
     padding: 0;
+}
+
+[class*='col-']>.card {
+    height: 100%;
+    margin: 0;
 }
 
 .card-section~.card-section {
