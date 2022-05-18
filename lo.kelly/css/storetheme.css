@@ -42,13 +42,35 @@ body {
     }
 }
 
+.menu-button label {
+    display: none;
+}
+
 @media (max-width:400px) {
     .navbar .display-flex {
+        flex-wrap: wrap;
+    }
+
+    .navbar .nav {
+        width: 100%;
+        display: none;
+    }
+
+    .navbar .nav-flex ul {
         display: block;
     }
 
     .navbar .nav ls {
         line-height: 2em;
+    }
+
+    .menu-button label {
+        display: block;
+        padding: 0 1em;
+    }
+
+    #menu:checked+.navbar .nav {
+        display: block;
     }
 }
 
@@ -101,3 +123,5 @@ body {
 .filter-button {
     margin-right: 0.5em;
 }
+
+.image-hsia {}
